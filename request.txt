@@ -1,0 +1,16 @@
+kelola users
+login
+kelola shift
+memulai shift (input kas awal)
+kelola members
+member dapat nota online
+member dapat potongan khusus
+ketika selesai transaksi customer bisa meminta nota pdf dengan input no wa
+kelola kategori
+kelola barang
+akan ada notif setiap hari mengenai rekapan barang yg stock nya hampir habis
+kelola event promo
+kelola varian
+data log
+menyimpan data pesanan
+batalkan transaksi yang sudah selesai
