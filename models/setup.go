@@ -7,12 +7,12 @@ import (
 
 var DB *gorm.DB
  func ConnectDatabase()  {
-	database, err := gorm.Open(mysql.Open("root:@tcp(localhost:3306)/point_of_sale"))
+	database, err := gorm.Open(mysql.Open("root:@tcp(localhost:3306)/point_of_sale?parseTime=true"))
 	if err != nil {
 		panic(err)
 	}
 
-	errs := database.AutoMigrate(&Users{})
+	errs := database.AutoMigrate(&Users{}, &Toko{})
 	if errs != nil {
 		panic(errs)
 	}
